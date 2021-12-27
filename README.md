@@ -29,7 +29,7 @@ Use your favorite plugin manager.
 
 Using [vim-plug](https://github.com/junegunn/vim-plug):
 
-    Plug 'mhinz/vim-startify'
+    Plug 'RowanMcDonald/vim-transtartify'
 
 It works without any configuration, but you might want to look into the
 documentation for further customization:
@@ -43,13 +43,3 @@ the [wiki](https://github.com/mhinz/vim-startify/wiki).
 ## Screenshot
 
 ![Startify in action!](https://github.com/RowanMcDonald/vim-transtartify/blob/main/images/startify-menu.png)
-
-That's it. A fancy start screen for Vim.
-
-_(Almost all visible features enabled. Colorscheme:
-[vim-janah](https://github.com/mhinz/vim-janah).)_
-
-## Author and Feedback
-
-If you like my plugins, please star them on Github. It's a great way of getting
-feedback. Same goes for issues reports or feature requests.
