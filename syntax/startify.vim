@@ -45,7 +45,6 @@ endif
 highlight default link StartifyBracket Delimiter
 highlight default link StartifyFile    Identifier
 highlight default link StartifyFooter  Title
-highlight default link StartifyHeader  Title
 highlight default link StartifyNumber  Number
 highlight default link StartifyPath    Directory
 highlight default link StartifySection Statement
@@ -53,6 +52,9 @@ highlight default link StartifySelect  Title
 highlight default link StartifySlash   Delimiter
 highlight default link StartifySpecial Comment
 highlight default link StartifyVar     StartifyPath
-highlight default link StartifyCow     Directory
+
+highlight default link StartifyHeader  Constant
+highlight default link StartifyBubbles ModeMsg
+highlight default link StartifyCow     NonText
 
 let b:current_syntax = 'startify'
