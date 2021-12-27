@@ -28,7 +28,7 @@ syntax match StartifyFile    /.*/ contains=
 execute 'syntax match StartifySlash /\'. s:sep .'/'
 execute 'syntax match StartifyPath /\%'. (len(s:padding_left) + 6) .'c.*\'. s:sep .'/ contains=StartifySlash,StartifyVar'
 
-execute 'syntax region StartifyHeader start=/\%1l/ end=/\%'. (len(g:startify_header) + 2 - 7) .'l/'
+execute 'syntax region StartifyHeader start=/\%1l/ end=/\%'. (len(g:startify_header) + 2 - 10) .'l/'
 
 execute 'syntax region StartifyBubbles start=/\%'. (len(g:startify_header) + 2 - 7) .'l/ end=/\%'. (len(g:startify_header) + 2 - 4) .'l/'
 
