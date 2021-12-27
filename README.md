@@ -1,5 +1,7 @@
 ![vim-startify](https://raw.githubusercontent.com/mhinz/vim-startify/master/images/startify-logo.png)
 
+# HARD FORKED by RowanMcDonald from https://github.com/mhinz/vim-startify
+
 ---
 
 This plugin provides a start screen for Vim and Neovim.
