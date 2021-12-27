@@ -28,7 +28,9 @@ syntax match StartifyFile    /.*/ contains=
 execute 'syntax match StartifySlash /\'. s:sep .'/'
 execute 'syntax match StartifyPath /\%'. (len(s:padding_left) + 6) .'c.*\'. s:sep .'/ contains=StartifySlash,StartifyVar'
 
-execute 'syntax region StartifyHeader start=/\%1l/ end=/\%'. (len(g:startify_header) + 2) .'l/'
+execute 'syntax region StartifyHeader start=/\%1l/ end=/\%'. (len(g:startify_header) + 2 - 7) .'l/'
+
+execute 'syntax region StartifyCow start=/\%'. (len(g:startify_header) + 2 - 7) .'l/ end=/\%'. (len(g:startify_header) + 2) .'l/'
 
 if exists('g:startify_custom_footer')
   execute 'syntax region StartifyFooter start=/\%'. startify#get_lastline() .'l/ end=/\_.*/'
@@ -43,7 +45,7 @@ endif
 highlight default link StartifyBracket Delimiter
 highlight default link StartifyFile    Identifier
 highlight default link StartifyFooter  Title
-highlight default link StartifyHeader  Directory
+highlight default link StartifyHeader  Title
 highlight default link StartifyNumber  Number
 highlight default link StartifyPath    Directory
 highlight default link StartifySection Statement
@@ -51,5 +53,6 @@ highlight default link StartifySelect  Title
 highlight default link StartifySlash   Delimiter
 highlight default link StartifySpecial Comment
 highlight default link StartifyVar     StartifyPath
+highlight default link StartifyCow     Directory
 
 let b:current_syntax = 'startify'
