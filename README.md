@@ -42,7 +42,7 @@ the [wiki](https://github.com/mhinz/vim-startify/wiki).
 
 ## Screenshot
 
-![Startify in action!](https://github.com/mhinz/vim-startify/blob/master/images/startify-menu.png)
+![Startify in action!](https://github.com/RowanMcDonald/vim-transtartify/blob/main/images/startify-menu.png)
 
 That's it. A fancy start screen for Vim.
 
