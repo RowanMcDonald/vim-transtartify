@@ -85,7 +85,11 @@ let s:char_bottom_right = ['*', '╯'][g:startify_fortune_use_unicode]
 let s:char_bottom_left  = ['*', '╰'][g:startify_fortune_use_unicode]
 
 let s:predefined_quotes = [
-      \ ["✨💖T4T 💕✨"]
+      \ ["✨💖 T4T 💕✨"]
+      \ ["💕✨ cringe isnt real sweetie, do whatever you want 💕✨"]
+      \ ["✨ trans rights ✨"]
+      \ ["✨ trans lefts ✨"]
+      \ ["✨ omg girl you look so good today! 😍💕"]
       \ ]
 
 let g:startify_custom_header_quotes = exists('g:startify_custom_header_quotes')
