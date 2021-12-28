@@ -59,4 +59,8 @@ highlight default link StartifyHeader  Constant
 highlight default link StartifyBubbles ModeMsg
 highlight default link StartifyCow     NonText
 
+hi StartifyHeader  ctermfg=13 guifg=#ffa0a0
+hi StartifyBubbles ctermfg=LightGrey guifg=#ffffff
+hi StartifyCow ctermfg=12 guifg=Blue
+
 let b:current_syntax = 'startify'
